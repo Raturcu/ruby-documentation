@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Types &mdash; Ruby-Documentation  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Installation" href="../overview/installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Ruby-Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Introduction:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Installation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/installation.html">Installation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Data Types:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data Types</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#numbers">1. Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#strings">2. Strings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#symbols">3. Symbols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hashes">4. Hashes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arrays">5. Arrays</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Ruby-Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Data Types</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/data/types.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="data-types">
+<h1>Data Types<a class="headerlink" href="#data-types" title="Permalink to this heading"></a></h1>
+<p>Data types represents a type of data such as text, string, numbers, etc. There are different data types in Ruby:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Numbers</p></li>
+<li><p>Strings</p></li>
+<li><p>Symbols</p></li>
+<li><p>Hashes</p></li>
+<li><p>Arrays</p></li>
+<li><p>Booleans</p></li>
+</ul>
+</div></blockquote>
+<section id="numbers">
+<h2>1. Numbers<a class="headerlink" href="#numbers" title="Permalink to this heading"></a></h2>
+<p>Integers and floating point numbers come in the category of numbers.</p>
+<p>Integers are held internally in binary form. Integer numbers are numbers without a fraction. According to their size, there are two types of integers. One is Bignum and other is Fixnum.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Class</p></th>
+<th class="head"><p>Descriptrion</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Fixnum</p></td>
+<td><p>They are normal numbers</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bignum</p></td>
+<td><p>They are big numbers</p></td>
+<td><p>111111111111</p></td>
+</tr>
+<tr class="row-even"><td><p>Float</p></td>
+<td><p>Decimal numbers</p></td>
+<td><p>3.0</p></td>
+</tr>
+<tr class="row-odd"><td><p>Complex</p></td>
+<td><p>Imaginary numbers</p></td>
+<td><p>4+3i</p></td>
+</tr>
+<tr class="row-even"><td><p>Rational</p></td>
+<td><p>They are fractional numbers</p></td>
+<td><p>9/4</p></td>
+</tr>
+<tr class="row-odd"><td><p>BigDecimal</p></td>
+<td><p>Precision decimal numbers</p></td>
+<td><p>6.0</p></td>
+</tr>
+</tbody>
+</table>
+<p>Example:
+- In a calculation if integers are used, then only integers will be returned back.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/num1.png"><img alt="../_images/num1.png" src="../_images/num1.png" style="width: 90%;" /></a>
+</figure>
+<ul class="simple">
+<li><p>In a calculation if float type is used, then only float will be returned back.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/num2.png"><img alt="../_images/num2.png" src="../_images/num2.png" style="width: 90%;" /></a>
+</figure>
+<ul class="simple">
+<li><p>In case of dvision, following output will appear.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/num3.png"><img alt="../_images/num3.png" src="../_images/num3.png" style="width: 90%;" /></a>
+</figure>
+</section>
+<section id="strings">
+<h2>2. Strings<a class="headerlink" href="#strings" title="Permalink to this heading"></a></h2>
+<p>A string is a group of letters that represent a sentence or a word. Strings are defined by enclosing a text within single (’) or double (”) quote.</p>
+<p><strong>Example:</strong></p>
+<ul class="simple">
+<li><p>Two strings can be concatenated using + sign in between them.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/string1.png"><img alt="../_images/string1.png" src="../_images/string1.png" style="width: 90%;" /></a>
+</figure>
+<ul class="simple">
+<li><p>Multiplying a number string with a number will repeat the string as many times.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/string2.png"><img alt="../_images/string2.png" src="../_images/string2.png" style="width: 90%;" /></a>
+</figure>
+</section>
+<section id="symbols">
+<h2>3. Symbols<a class="headerlink" href="#symbols" title="Permalink to this heading"></a></h2>
+<p>Symbols are like strings. A symbol is preceded by a colon (:). For example,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:</span><span class="n">abcd</span>
+</pre></div>
+</div>
+<p>They do not contain spaces. Symbols containing multiple words are written with (_). One difference between string and symbol is that, if text is a data then it is a string but if it is a code it is a symbol.</p>
+<p>Symbols are unique identifiers and represent static values, while string represent values that change.</p>
+<p><strong>Example:</strong></p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/symbols.png"><img alt="../_images/symbols.png" src="../_images/symbols.png" style="width: 90%;" /></a>
+</figure>
+<p>In the above snapshot, two different object_id is created for string but for symbol same object_id is created.</p>
+</section>
+<section id="hashes">
+<h2>4. Hashes<a class="headerlink" href="#hashes" title="Permalink to this heading"></a></h2>
+<p>A hash assign its values to its keys. They can be looked up by their keys. Value to a key is assigned by =&gt; sign. A key/value pair is separated with a comma between them and all the pairs are enclosed within curly braces. For example,</p>
+<p>{“Akash” =&gt; “Physics”, “Ankit” =&gt; “Chemistry”, “Aman” =&gt; “Maths”}</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/ruby</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Akash&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;Physics&quot;</span><span class="p">,</span> <span class="s2">&quot;Ankit&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;Chemistry&quot;</span><span class="p">,</span> <span class="s2">&quot;Aman&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;Maths&quot;</span><span class="p">}</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Akash&quot;</span><span class="p">]</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Ankit&quot;</span><span class="p">]</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Aman&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/hashes.png"><img alt="../_images/hashes.png" src="../_images/hashes.png" style="width: 90%;" /></a>
+</figure>
+</section>
+<section id="arrays">
+<h2>5. Arrays<a class="headerlink" href="#arrays" title="Permalink to this heading"></a></h2>
+<p>An array stroes data or list of data. It can contain all types of data. Data in an array are separated by comma in between them and are enclosed by square bracket. For example,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="s2">&quot;Akash&quot;</span><span class="p">,</span> <span class="s2">&quot;Ankit&quot;</span><span class="p">,</span> <span class="s2">&quot;Aman&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Elements from an array are retrieved by their position. The position of elements in an array starts with 0.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/ruby</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Akash&quot;</span><span class="p">,</span> <span class="s2">&quot;Ankit&quot;</span><span class="p">,</span> <span class="s2">&quot;Aman&quot;</span><span class="p">]</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">puts</span> <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/array.png"><img alt="../_images/array.png" src="../_images/array.png" style="width: 90%;" /></a>
+</figure>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../overview/installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Razvan Andrei Turcu.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
