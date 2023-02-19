@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Overview &mdash; Ruby-Documentation  documentation</title>
+  <title>Operators &mdash; Ruby-Documentation  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -20,8 +20,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Installation" href="installation.html" />
-    <link rel="prev" title="Welcome to Ruby’s documentation!" href="../index.html" /> 
+    <link rel="prev" title="Variables" href="variables.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,15 +43,19 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Introduction:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/installation.html">Installation</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Data Types:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../data/types.html">Data Types</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../data/variables.html">Variables</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../data/operators.html">Operators</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="types.html">Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Operators</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#types-of-operators">1. Types of operators:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unary-operator">2. Unary Operator</a></li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -69,9 +72,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Overview</li>
+      <li class="breadcrumb-item active">Operators</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/overview/overview.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/data/operators.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -79,39 +82,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="overview">
-<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading"></a></h1>
-<p>Ruby is a pure object-oriented programming language. It was created in 1993 by Yukihiro Matsumoto of Japan.</p>
-<p>You can find the name Yukihiro Matsumoto on the Ruby mailing list at www.ruby-lang.org. Matsumoto is also known as Matz in the Ruby community.</p>
-<p><em>Ruby</em> is <strong>“A Programmer’s Best Friend”</strong>.</p>
-<p>Ruby has features that are similar to those of Smalltalk, Perl, and Python. Perl, Python, and Smalltalk are scripting languages. Smalltalk is a true object-oriented language. <strong>Ruby</strong>, like Smalltalk, is a perfect object-oriented language. Using <strong>Ruby</strong> syntax is much easier than using <strong>Smalltalk</strong> syntax.</p>
-<p><strong>Features of Ruby:</strong></p>
+  <section id="operators">
+<h1>Operators<a class="headerlink" href="#operators" title="Permalink to this heading"></a></h1>
+<p>Ruby has a built-in modern set of operators. Operators are a symbol which is used to perform different operations. <strong>For example, +, -, /, *, etc.</strong></p>
+<section id="types-of-operators">
+<h2>1. Types of operators:<a class="headerlink" href="#types-of-operators" title="Permalink to this heading"></a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><p>Ruby is an open-source and is freely available on the Web, but it is subject to a license.</p></li>
-<li><p>Ruby is a general-purpose, interpreted programming language.</p></li>
-<li><p>Ruby is a true object-oriented programming language.</p></li>
-<li><p>Ruby is a server-side scripting language similar to Python and PERL.</p></li>
-<li><p>Ruby can be used to write Common Gateway Interface (CGI) scripts.</p></li>
-<li><p>Ruby can be embedded into Hypertext Markup Language (HTML).</p></li>
-<li><p>Ruby has a clean and easy syntax that allows a new developer to learn very quickly and easily.</p></li>
-<li><p>Ruby has similar syntax to that of many programming languages such as C++ and Perl.</p></li>
-<li><p>Ruby is very much scalable and big programs written in Ruby are easily maintainable.</p></li>
-<li><p>Ruby can be used for developing Internet and intranet applications.</p></li>
-<li><p>Ruby can be installed in Windows and POSIX environments.</p></li>
-<li><p>Ruby support many GUI tools such as Tcl/Tk, GTK, and OpenGL.</p></li>
-<li><p>Ruby can easily be connected to DB2, MySQL, Oracle, and Sybase.</p></li>
-<li><p>Ruby has a rich set of built-in functions, which can be used directly into Ruby scripts.</p></li>
+<li><p>Unary operator</p></li>
+<li><p>Airthmetic operator</p></li>
+<li><p>Bitwise operator</p></li>
+<li><p>Logical operator</p></li>
+<li><p>Ternary operator</p></li>
+<li><p>Assignment operator</p></li>
+<li><p>Comparison operator</p></li>
+<li><p>Range operator</p></li>
 </ul>
 </div></blockquote>
+</section>
+<section id="unary-operator">
+<h2>2. Unary Operator<a class="headerlink" href="#unary-operator" title="Permalink to this heading"></a></h2>
+<p>Unary operators expect a single operand to run on.</p>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Ruby’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="variables.html" class="btn btn-neutral float-left" title="Variables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

@@ -20,13 +20,10 @@ Before you start practicing with various types of examples given in this tutoria
    :hidden:
    :caption: Introduction:
 
-   overview/overview
 
-.. toctree::
-   :hidden:
-   :caption: Installation:
-   
+   overview/overview
    overview/installation
+
 
 .. toctree::
    :hidden:
@@ -34,6 +31,9 @@ Before you start practicing with various types of examples given in this tutoria
 
    
    data/types
+   data/variables
+   data/operators
+   
 
 
 
