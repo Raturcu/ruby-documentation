@@ -150,29 +150,4 @@ In the above example, @states_name is the instance variable.
 .. figure:: /_images/globalvariables.png
    :width: 90%
 
-
-============================================================ == == == == == == == == == 
-    Local                                                                                  
-============================================================ == == == == == == == == == 
-Scope - Limited within the block of initialization.   
-
-Naming - Starts with a lowercase letter or underscore (_).                             
-Initialization - No need to initialize   
-
-An uninitialized local variable                                                        
-is interpreted as methods with no arguments.                                                                                                                                                   
-============================================================ == == == == == == == == == 
-
-+------------------------------------------------------------+--------------------------+----------------------------------------+-------------------------------------------------------+
-| Local                                                      | Global                   | Instance                               | Class                                                 |
-+============================================================+==========================+========================================+=======================================================+
-| Scope - Limited within the block of initialization.        | Its scope is globally.   | It belongs to one instance of a class. | Limited to the whole class in which they are created. |
-| Naming - Starts with a lowercase letter or underscore (_). | Starts with a $ sign.    | Starts with an @ sign.                 | Starts with an @@ sign.                               |
-| Initialization - No need to initialize                     | No need to initialize.   | No need to initialize.                 | They need to be initialized before use.               |
-| An uninitialized local variable                            | An uninitialized global  | An uninitialized instance              | An uninitialized global variable                      |
-| is interpreted as methods with no arguments.               | variable will have       | variable will have                     | results in an error.                                  |
-|                                                            | a nil value.             | a nil value.                           |                                                       |
-|                                                            |                          |                                        |                                                       |
-|                                                            |                          |                                        |                                                       |
-|                                                            |                          |                                        |                                                       |
-+------------------------------------------------------------+--------------------------+----------------------------------------+-------------------------------------------------------+
+example

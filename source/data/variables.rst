@@ -150,4 +150,4 @@ In the above example, @states_name is the instance variable.
 .. figure:: /_images/globalvariables.png
    :width: 90%
 
-
+example
